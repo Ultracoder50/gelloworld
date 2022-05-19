@@ -1,0 +1,58 @@
+#include <stdio.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#include <errno.h>
+#include <dirent.h>
+char * help = "\\      /\\      /\n"
+              " \\    /  \\    /\n"
+              "  \\  /    \\  /\n"
+              "   \\/      \\/\n\n\n"
+              "|-----\n"
+              "|\n"
+              "|\n"
+              "|\n"
+              "|-----\n"
+              "|\n"
+              "|\n"
+              "|\n"
+              "|-----\n\n\n"
+              "|\n"
+              "|\n"
+              "|\n"
+              "|\n"
+              "|\n"
+              "|\n"
+              "|________\n\n\n"
+              "|---------\n"
+              "|\n"
+              "|\n"
+              "|\n"
+              "|\n"
+              "|---------\n\n\n"
+              "|------------|\n"
+              "|\t\t     |\n"
+              "|\t\t     |\n"
+              "|\t\t     |\n"
+              "|\t\t     |\n"
+              "|------------|\n\n\n"
+              "|\\        /|\n"
+              "| \\      / | \n"
+              "|  \\    /  | \n"
+              "|   \\  /   |\n"
+              "|    \\/    |\n\n\n"
+              "|-----\n"
+              "|\n"
+              "|\n"
+              "|\n"
+              "|-----\n"
+              "|\n"
+              "|\n"
+              "|\n"
+              "|-----\n\n\n"
+              "This is a basic command line shell.\n"
+              "For a list of commands, type list.\n"
+              "For More information, look at main.c\n";
